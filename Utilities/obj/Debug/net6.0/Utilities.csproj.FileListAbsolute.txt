@@ -1,0 +1,12 @@
+C:\Users\quentin\source\repos\Web.Examen\Utilities\bin\Debug\net6.0\Utilities.deps.json
+C:\Users\quentin\source\repos\Web.Examen\Utilities\bin\Debug\net6.0\Utilities.dll
+C:\Users\quentin\source\repos\Web.Examen\Utilities\bin\Debug\net6.0\Utilities.pdb
+C:\Users\quentin\source\repos\Web.Examen\Utilities\obj\Debug\net6.0\Utilities.csproj.AssemblyReference.cache
+C:\Users\quentin\source\repos\Web.Examen\Utilities\obj\Debug\net6.0\Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\quentin\source\repos\Web.Examen\Utilities\obj\Debug\net6.0\Utilities.AssemblyInfoInputs.cache
+C:\Users\quentin\source\repos\Web.Examen\Utilities\obj\Debug\net6.0\Utilities.AssemblyInfo.cs
+C:\Users\quentin\source\repos\Web.Examen\Utilities\obj\Debug\net6.0\Utilities.csproj.CoreCompileInputs.cache
+C:\Users\quentin\source\repos\Web.Examen\Utilities\obj\Debug\net6.0\Utilities.dll
+C:\Users\quentin\source\repos\Web.Examen\Utilities\obj\Debug\net6.0\refint\Utilities.dll
+C:\Users\quentin\source\repos\Web.Examen\Utilities\obj\Debug\net6.0\Utilities.pdb
+C:\Users\quentin\source\repos\Web.Examen\Utilities\obj\Debug\net6.0\ref\Utilities.dll

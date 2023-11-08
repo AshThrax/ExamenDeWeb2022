@@ -1,0 +1,58 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@if(User.Identity.IsAuthenticated)
+{
+    <div class="row d-flex justify-content-center ">
+        <div class="col">
+            <h1 class ="row d-flex justify-content-center ">
+                Bienvenu sur Cinémania Inc
+            </h1>
+            <h2 class="row d-flex justify-content-center ">
+                Il est temps de vous lancer dans L'adventure '
+            </h2>
+            
+                <div class="col ">
+                    <img src="img/246242296_907093739909623_760397642655490036_n.png" />
+                </div>
+            
+        </div>
+        
+    </div>
+   
+}
+else 
+{
+
+    <div class="text-center ">
+    <h1>
+        Bienvenu sur Cinémania Inc
+    </h1>
+    <h2>
+        le site ou vous puvez creer votre propre Aventure
+    </h2>
+    <h3>
+       pour profiter de notre service veuillez vous enregistré  
+    </h3>
+    <section>
+            <div class="col">
+                <img src="img/246242296_907093739909623_760397642655490036_n.png" />
+            </div>
+    </section>
+    <div class="row">
+        <div class="col"></div>
+    </div>
+      <div class="row">
+          <div class="col">
+                <h3>Si vous cherchez un Film en particulier que vous voulez voir aujourd'hui</h3>
+          </div>
+          <div class="col">
+                <div class="btn btn-outline-danger"  asp-controller="Home" asp-action="SearchFilm">
+                        <a asp-controller="Home" asp-action="SearchFilm">appuyer ici</a>
+                </div>
+          </div>
+         
+      </div>
+</div>
+
+}

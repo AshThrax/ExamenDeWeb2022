@@ -1,0 +1,58 @@
+﻿@model Web.Examen.Client.Models.Posts.Post
+
+@{
+    ViewData["Title"] = "GetPost";
+}
+
+<h1>GetPost</h1>
+
+<div>
+    <h4>Post</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Username)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Username)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Titre)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Titre)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PostContent)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PostContent)
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+</div>
+<div class="row">
+    @foreach(Web.Examen.Client.Models.RePosts.RePost item in Model.RepostList)
+    {
+        <ul>
+            <li>@item.Id</li>
+            <li>@item.UserName</li>
+            <li>@item.Response</li>
+            <li><a href="@Url.Action("DeleteRePost","RePost",new{id=item.Id})">Delete</a>| <a href ="@Url.Action("UpdateRePost","RePost",new{id=item.Id})">Update</a></li>
+        </ul>
+        <div class="row">
+            <a href="@Url.Action("CreateRepost","Repost",new{id=item.Id})">repondre a ce poste</a>/a>
+        </div>   
+    }
+</div>
+
+

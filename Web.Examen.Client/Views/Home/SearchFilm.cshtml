@@ -1,0 +1,61 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model Web.Examen.Client.Models.FilmOmdb.FilmOMdb
+
+<h2 text-light> Entrez un titre de film </h2>
+<div id="contour" class="text-center">
+
+    <form id="Contour"
+          asp-controller="Home"
+          asp-action="Submit"
+          method="post"
+          class="form-horizontal"
+          role="form">
+
+        <div class="form-group">
+            <label for="Title">Title</label>
+            <input class="form-control"
+                   placeholder="Enter Title"
+                   asp-for="Title">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+</div>
+<div id="contour">
+    @{
+        <br>
+
+        if (!string.IsNullOrEmpty(Model?.Year))
+        {
+            var title = Model.Title;
+            var year = Model.Year;
+            var message = $"{title} is release on {year}";
+
+            <br>
+            <div class="card" style="width: 18rem;" class="text-center">
+                <img class="card-img-top" src=@Model.PosterImage alt="Poster Not Available">
+                <div class="card-body">
+                    <h5 class="card-title">@Model.Title (@Model.Year)</h5>
+                    <p class="card-text">@Model.Plot</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><strong>Director : @Model.Director</strong></li>
+                    <li class="list-group-item"><strong>Actors : @Model.Actors</strong></li>
+                    <li class="list-group-item"><strong>Rating : @Model.ImdbRating</strong></li>
+                </ul>
+            </div>
+        }
+
+        if (Model != null && string.IsNullOrEmpty(Model?.Year))
+        {
+            <div class="alert alert-danger" role="alert">
+                <strong>Sorry!! Requested Movie Details are not available..</strong>
+            </div>
+        }
+    }
+</div> 

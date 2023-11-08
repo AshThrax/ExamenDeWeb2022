@@ -1,0 +1,136 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Web.Examen.Client
+build_property.RootNamespace = Web.Examen.Client
+build_property.ProjectDir = C:\Users\quentin\source\repos\Web.Examen\ExamenDeWeb2022\Web.Examen.Client\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\quentin\source\repos\Web.Examen\ExamenDeWeb2022\Web.Examen.Client
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/quentin/source/repos/Web.Examen/ExamenDeWeb2022/Web.Examen.Client/Views/Account/AccesDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc0RlbmllZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/quentin/source/repos/Web.Examen/ExamenDeWeb2022/Web.Examen.Client/Views/Account/profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxwcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/quentin/source/repos/Web.Examen/ExamenDeWeb2022/Web.Examen.Client/Views/Acteur/CreateActeur.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0ZXVyXENyZWF0ZUFjdGV1ci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/quentin/source/repos/Web.Examen/ExamenDeWeb2022/Web.Examen.Client/Views/Acteur/DeleteActeur.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0ZXVyXERlbGV0ZUFjdGV1ci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/quentin/source/repos/Web.Examen/ExamenDeWeb2022/Web.Examen.Client/Views/Acteur/EditActeur.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0ZXVyXEVkaXRBY3RldXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/quentin/source/repos/Web.Examen/ExamenDeWeb2022/Web.Examen.Client/Views/Admin/AccesDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWNjZXNEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/quentin/source/repos/Web.Examen/ExamenDeWeb2022/Web.Examen.Client/Views/Admin/DisplayallUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGlzcGxheWFsbFVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/quentin/source/repos/Web.Examen/ExamenDeWeb2022/Web.Examen.Client/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/quentin/source/repos/Web.Examen/ExamenDeWeb2022/Web.Examen.Client/Views/Film/CreateFilm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbVxDcmVhdGVGaWxtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/quentin/source/repos/Web.Examen/ExamenDeWeb2022/Web.Examen.Client/Views/Film/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/quentin/source/repos/Web.Examen/ExamenDeWeb2022/Web.Examen.Client/Views/Film/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/quentin/source/repos/Web.Examen/ExamenDeWeb2022/Web.Examen.Client/Views/Film/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/quentin/source/repos/Web.Examen/ExamenDeWeb2022/Web.Examen.Client/Views/Film/GetAllFilm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbVxHZXRBbGxGaWxtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/quentin/source/repos/Web.Examen/ExamenDeWeb2022/Web.Examen.Client/Views/Film/GetFilmPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbVxHZXRGaWxtUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/quentin/source/repos/Web.Examen/ExamenDeWeb2022/Web.Examen.Client/Views/Film/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/quentin/source/repos/Web.Examen/ExamenDeWeb2022/Web.Examen.Client/Views/Home/Claims.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDbGFpbXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/quentin/source/repos/Web.Examen/ExamenDeWeb2022/Web.Examen.Client/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/quentin/source/repos/Web.Examen/ExamenDeWeb2022/Web.Examen.Client/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/quentin/source/repos/Web.Examen/ExamenDeWeb2022/Web.Examen.Client/Views/Home/SearchFilm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWFyY2hGaWxtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/quentin/source/repos/Web.Examen/ExamenDeWeb2022/Web.Examen.Client/Views/Post/CreatePost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxDcmVhdGVQb3N0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/quentin/source/repos/Web.Examen/ExamenDeWeb2022/Web.Examen.Client/Views/Post/GetAllPost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxHZXRBbGxQb3N0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/quentin/source/repos/Web.Examen/ExamenDeWeb2022/Web.Examen.Client/Views/Post/GetPost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxHZXRQb3N0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/quentin/source/repos/Web.Examen/ExamenDeWeb2022/Web.Examen.Client/Views/Post/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/quentin/source/repos/Web.Examen/ExamenDeWeb2022/Web.Examen.Client/Views/Post/UpdatePost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxVcGRhdGVQb3N0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/quentin/source/repos/Web.Examen/ExamenDeWeb2022/Web.Examen.Client/Views/RePost/CreateRepost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVQb3N0XENyZWF0ZVJlcG9zdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/quentin/source/repos/Web.Examen/ExamenDeWeb2022/Web.Examen.Client/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/quentin/source/repos/Web.Examen/ExamenDeWeb2022/Web.Examen.Client/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/quentin/source/repos/Web.Examen/ExamenDeWeb2022/Web.Examen.Client/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/quentin/source/repos/Web.Examen/ExamenDeWeb2022/Web.Examen.Client/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/quentin/source/repos/Web.Examen/ExamenDeWeb2022/Web.Examen.Client/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-n2u5liusez

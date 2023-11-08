@@ -1,0 +1,37 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model Web.Examen.Client.Models.User.UserViewModel
+
+<div class="row d-flex justify-content-center">
+    <h1>Profile Page</h1>
+    <section class="nav-link text-light">
+        <img src="@Model.pictures" />
+    </section>
+    
+</div>
+<br />
+<br />
+<br />
+<br />
+<section>
+    <div>
+        <div>
+            <h4>l'équipe de Cinéma.Inc vous Souahite la bienvenue </h4>
+            <h3>@Model.Id</h3>
+            <h3> @Model.UserName</h3>
+            
+            <h4>@Model.EMailAdress</h4>
+            <h3>@Model.UserRoles</h3>
+        </div>
+            <div class="">
+           
+            </div>
+       
+    </div>
+</section>
+<section>
+
+</section>

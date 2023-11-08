@@ -1,0 +1,41 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h1>Admin View</h1>
+<h2> All Auth0 Users</h2>
+
+<div>
+    <table id="auth0UserDisplay">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Profile Picture</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+@section Scripts
+        {
+            <script>
+            var Auth0Table = $('#auth0UserDisplay').DataTable({
+                        "ajax": {
+                            'type': 'get',
+                            'dataType': "json",
+                            "url": "@Url.Action("GetAllAuth0Users")",
+                            "dataSrc": function (result) {
+                                return result;
+                            }
+                        },
+                        "columns": [
+                            { "data": "userFirstName" },
+                            { "data": "Email" },
+                            { "data": "profilepicture" }
+                        ]
+                    });
+                    function 
+            </script>
+        }
+</div>
